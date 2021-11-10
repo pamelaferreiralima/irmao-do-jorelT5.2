@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@100;200;300;400;500&family=Nunito:wght@300;400;600;700&family=Open+Sans:wght@300;400;500;600&family=Roboto:wght@300;400&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.logo{
+  height:13vh;
+  width: 17vw;
+}
+header{
+  display: flex;
+  justify-content: space-evenly;
+  background: yellow;
+  width: 100%;
+}
+ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+  width: 70vw;
+}
+a{
+   text-decoration:none;
+   color: red;
+   text-transform: uppercase;
+}
+.container-main{
+  display: flex;
+}
+.container-figure{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50vw;
+  height: 40vw;
+}
+.container-figure img{
+  width: 10vw;
+  border-radius: 50%;
+}
+.container-content{
+    margin: 5rem;
+}
+.container-content img{
+  width: 50vw;
+}
+.box-news{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  height: 10vh;
+  text-transform: uppercase;
+}
+.container-about{
+  display: flex;
+  height: 35vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.box-about h2{
+    text-align: center;
+}
+.box-location h2{
+    text-align: center;
+}
+.box-about{
+  width: 50vw;
+}
+footer{
+  background: yellow;
+  height: 17vh;
+  width: 100%;
+}
+.list-footer{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        height: 15vh;
+        width: 100%;
+}
